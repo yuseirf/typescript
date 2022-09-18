@@ -1,11 +1,8 @@
-import { Big } from 'big.js';
+console.log(Math.sqrt(-1)); // NaN
+// 平方根を出力する関数である sqrt() を使った時、負の数であるときは何も返さない
 
-var num = '111.11111111111111111111'
-export const foo = new Big(num);
-export const bar = foo.plus(new Big('0.00000000000000000001'));
+// これはしないでください
+console.log(NaN === NaN); // false!!
 
-// numberを得る方法
-const x: number = Number(bar.toString()); // 小数点以下の精度を失う
-
-console.log('num:', num)
-console.log('x:', x)
+// こうしてください
+console.log(Number.isNaN(NaN)); // true
