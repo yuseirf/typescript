@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/big.js": "^6.1.6",
+    "big.js": "^6.2.1"
+  }
 }
