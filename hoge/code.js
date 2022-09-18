@@ -1,11 +1,12 @@
 "use strict";
-/// `foo.bar == undefined` のようなコードを書いたときに、何が起きるか想像してみてください:
-console.log(undefined == undefined); // true
-console.log(null == undefined); // true
-// このようなチェックをすれば、falsyな値について心配する必要はありません
-console.log(0 == undefined); // false
-console.log('' == undefined); // false
-console.log(false == undefined); // false
-console.log(0 == null);
-console.log('' == undefined);
+console.log({ max: Number.MAX_SAFE_INTEGER, min: Number.MIN_SAFE_INTEGER });
+// {max: 9007199254740991, min: -9007199254740991}
+var max_number = Number.MAX_SAFE_INTEGER;
+console.log(max_number);
+console.log(max_number + 1);
+console.log(max_number + 2);
+console.log(max_number + 3);
+console.log(max_number + 4);
+console.log(max_number + 5);
+console.log(max_number + 6);
 //# sourceMappingURL=code.js.map
