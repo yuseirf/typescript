@@ -8,7 +8,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/hoge/code.js",
+            // deep-dive/scripts/<実行したいファイル名>を入力
+            "program": "${workspaceFolder}/deep-dive/scripts/class-and-inheritance.js",
             "preLaunchTask": "build"
         }
     ]
