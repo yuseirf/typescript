@@ -6,11 +6,12 @@ for (var item in someArray) {
     console.log(typeof (item));
     console.log(item); // 0,1,2
 }
+// for...ofのメリットは、開発者の意図がより明確になりますし、コードの量が減ります(そして、頭からひねり出さないといけない変数名も減ります)。
 var someArray = [9, 2, 5];
 for (var num of someArray) {
     console.log(num); // 9,2,5
 }
-// 辞書型にすると
+// for...inを辞書型にすると、valueじゃなくてkeyが見れる
 const xDictionary = {};
 xDictionary['a'] = 10;
 xDictionary['b'] = 20;
