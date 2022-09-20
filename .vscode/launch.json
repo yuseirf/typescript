@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Launch Program",
             // deep-dive/scripts/<実行したいファイル名>.ts を入力
-            "program": "${workspaceFolder}/deep-dive/scripts/declaration-spaces.ts",
+            "program": "${workspaceFolder}/deep-dive/scripts/file-modules.ts",
             "preLaunchTask": "build"
         }
     ]
