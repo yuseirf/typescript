@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Launch Program",
             // deep-dive/scripts/<実行したいファイル名>.ts を入力
-            "program": "${workspaceFolder}/deep-dive/scripts/tagged-functions.ts",
+            "program": "${workspaceFolder}/deep-dive/scripts/freshness.ts",
             "preLaunchTask": "build"
         }
     ]
