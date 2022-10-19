@@ -1,1 +1,2 @@
 # typescript
+just learn it
